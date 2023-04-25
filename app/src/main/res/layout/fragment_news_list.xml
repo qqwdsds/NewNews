@@ -3,11 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NewsListFragment">
+    android:background="#D3D3D3"
+    tools:context=".presentation.fragments.NewsListFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_newsList"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_news"/>
 
 </FrameLayout>
