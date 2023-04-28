@@ -10,7 +10,7 @@ data class News(
     val date: String,
     val id: String,
     val imageUrl: String,
-    val readMoreUrl: String,
+    val readMoreUrl: String?,
     val time: String,
     val title: String,
     val url: String): Parcelable

@@ -1,9 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.NewNews" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/background_color</item>
     </style>
 
     <style name="Theme.NewNews" parent="Base.Theme.NewNews" />
+
+    <style name="actionbar_theme" >
+        <item name="android:textSize">20sp</item>
+    </style>
 </resources>
