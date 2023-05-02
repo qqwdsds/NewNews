@@ -8,7 +8,6 @@ data class News(
     val author: String,
     val content: String,
     val date: String,
-    val id: String,
     val imageUrl: String,
     val readMoreUrl: String?,
     val time: String,
