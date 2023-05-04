@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.newnews.R
 import com.example.newnews.databinding.FragmentNewsListBinding
-import com.example.newnews.presentation.fragments.NewsListFragmentDirections
 import com.example.newnews.presentation.models.CategoryItem
 import com.example.newnews.presentation.models.NewsItem
 import com.xwray.groupie.GroupieAdapter

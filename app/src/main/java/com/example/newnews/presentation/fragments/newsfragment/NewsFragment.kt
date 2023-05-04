@@ -13,7 +13,6 @@ import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
 import com.example.newnews.R
 import com.example.newnews.databinding.FragmentNewsBinding
-import com.example.newnews.presentation.fragments.NewsFragmentArgs
 
 class NewsFragment : Fragment(R.layout.fragment_news) {
     private lateinit var binding: FragmentNewsBinding
